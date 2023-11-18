@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,700&display=swap");
+
+/* ------------------------------------------- Colors ------*/
+.navbar-color {
+  background-color: rgba(0,185,255, 0.9);
+  padding: 0;
+}
+
+/* ------------------------------------------- Headings etc ------*/
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 10px 0 10px;
+}
+
+hr {
+  border: 2px solid black;
+
+ 
+  width: 50%;
+  margin: 0 auto 15px;
+}
+
+/* ------------------------------------------- Header ------*/
+
+header {
+  height: 40vh;
+  background-color: black;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* ------------------------------------------- Nav ------*/
+
+.navbar {
+  z-index: 1;
+}
+.navbar-brand img {
+  width: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  font-size: xx-large;
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.collapse .nav-item {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.collapse .nav-item .show {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 2px;
+  text-align: right;
+  padding-right: 15px;
+}
+
+/* ------------------------------------------- banner img ------*/
+
+.hero-img {
+  position: absolute;
+  top: 90px;
+}
+
+/* ------------------------------------------- section 1 ------*/
+
+.main-article {
+  background-color: #fafafa;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.main-article p {
+  text-indent: 20px;
+  
+  font-size: 20px;
+  letter-spacing: 1.1px;
+  margin-bottom: 0;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+/* ------------------------------------------- section 2 ------*/
+.second-section {
+  margin-top: 50px;
+}
+.char-frame {
+  margin: 1rem;
+  background-color: #fafafa;
+  text-indent: 20px;
+}
+
+.char-frame figure blockquote {
+  font-size: 14px;
+}
+.char-frame-left {
+  padding: 1em;
+}
+
+.char-frame-left img {
+  margin: 0 auto;
+  border: 1px solid;
+  border-radius: 50%;
+  max-width: 75%;
+  background-color: white;
+}
+
+#luffy {
+  background-color: rgba(215, 0, 0, 0.3);
+}
+#zoro {
+  background-color: rgba(55, 89, 73, 0.3);
+}
+#nami {
+  background-color: rgba(230, 125, 40, 0.3);
+}
+#usopp {
+  background-color: rgba(209, 152, 51, 0.3);
+}
+#robin {
+  background-color: rgba(89, 55, 121, 0.3);
+}
+#chopper {
+  background-color: rgba(152, 103, 63, 0.3);
+}
+
+/* ------------------------------------------- map section ------*/
+
+
+/* ------------------------------------------- footer ------*/
+
+footer {
+    background-color: rgb(0,185,255);
+}
+
+.social-links li a i{
+    width: 48px;
+    height: 48px;
+    padding: 24px 0;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 0;
+    text-align: center;
+    color: rgb(223,213,0);
+    background-color: rgb(169,0,0);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
