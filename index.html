@@ -78,7 +78,7 @@
       </div>
     </header>
     <!--Main Section - Introduction------------------------------------------------------->
-    <section class="container-fluid main-section">
+    <section class="container-fluid">
       <div class="row">
         <div class="col">
           <h2 class="heading text-center">
@@ -88,32 +88,27 @@
         </div>
       </div>
 
-      <div class="row my-5 justify-content-center">
-        <div class="col col-md-5">
+      <div class="row my-5 main-section">
+        <div class="col-12 photo">
           <img
-            class="col d-inline img-fluid rounded-2 mb-4"
+            class="img-fluid rounded-2 mb-4"
             src="./assets/img/arts/luffy.jpg"
             alt=""
             width="100%"
           />
           <img
-            class="d-none d-md-inline img-fluid rounded-2"
+            class="d-none d-sm-inline-block img-fluid rounded-2 mb-4"
             src="./assets/img/arts/Monkey-Luffy-One-Piece-Netflix.jpg"
             alt=""
           />
           <img
-            class="d-none d-md-inline d-lg-inline d-xl-none img-fluid rounded-2 mt-4"
-            src="./assets/img/arts/eiji-aonuma.webp"
-            alt=""
-          />
-          <img
-            class="d-none d-md-inline d-lg-inline d-xl-none img-fluid rounded-2 mt-4"
+            class="d-none d-sm-inline-block img-fluid rounded-2 mb-4"
             src="./assets/img/arts/eiji-aonuma.webp"
             alt=""
           />
         </div>
         <!--article------------------------------------------------------->
-        <div class="col-md-6 main-article border border-2 rounded-2 my">
+        <div class="col-10 main-article rounded-2 my">
           <h2 class="text-center">What is One Piece ?</h2>
           <p>
             <strong>"One Piece"</strong> is a manga series created by Eiichiro
@@ -157,16 +152,17 @@
       </div>
     </section>
     <!--Characters Section----------------------------------------------------->
-    <section class="container-fluid second-section">
+    <section class="container-fluid section-margins">
       <div class="row">
         <div class="col">
-          <h2 class="heading uppercase text-center">One Piece Characters</h2>
+          <h2 class="heading text-center">One Piece Characters</h2>
           <hr />
         </div>
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-md-5 char-frame border border-5 rounded-4" id="luffy">
+        <!--luffy-->
+        <div class="col-md-5 char-frame  border-5 rounded-4" id="luffy">
           <div class="row">
             <div class="col-4 text-center char-frame-left">
               <img src="./assets/img/characters/lufy.png" alt="" />
@@ -198,7 +194,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 char-frame border border-5 rounded-4" id="zoro">
+        <!--zoro-->
+        <div class="col-md-5 char-frame border-5 rounded-4" id="zoro">
           <div class="row">
             <div class="col-4 text-center char-frame-left">
               <img src="./assets/img/characters/zoro.png" alt="" />
@@ -234,7 +231,7 @@
             </div>
           </div>
         </div>
-
+<!--nami-->
         <div class="col-md-5 char-frame border border-5 rounded-4" id="nami">
           <div class="row">
             <div class="col-4 text-center char-frame-left">
@@ -380,22 +377,50 @@
       </div>
     </section>
 <!-- world map section--------------------------------------------------------->
-    <section class="container-fluid justify-content-center">
-      <div class="row">
-        <div class="col text-center">
-          <h2 class="heading uppercase">One Piece World Map</h2>
-          <hr />
-        </div>
-      </div>
+<section class="container-fluid section-margins">
+  <div class="row">
+    <div class="col">
+      <h2 class="heading text-center">
+        Introduction to the World of One Piece
+      </h2>
+      <hr />
+    </div>
+  </div>
 
       <div class="row justify-content-center">
         <div class="col-11">
           <div class="clearfix">
-            <img
+           
+          
+            <!-- <img
               src="./assets/img/backgrounds/map.jpg"
               class="col-md-4 float-md-end mb-3 ms-md-3 img-fluid"
               alt="..."
-            />
+            /> -->
+
+
+              <!-- Modal -->
+<!-- Trigger the Modal -->
+<img id="myImg" src="./assets/img/backgrounds/map.jpg" class="col-md-4 float-md-end mb-3 ms-md-3 img-fluid" alt="One Piece World Map" style="width:100%;max-width:300px">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
+
+
+
+
+
+           
 
             <p>
               The world of "One Piece" is vast and diverse, comprising several
@@ -444,6 +469,14 @@
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
     </section>
 <!-- media section------------------------------------------------------->
     <section>
@@ -454,7 +487,7 @@
         </div>
       </div>
 <!-- media cards-->
-      <div class="row row-cols-2 row-cols-md-5 g-4 mx-1 justify-content-center">
+      <div class="row row-cols-2 row-cols-md-4 g-4 mx-1 justify-content-center">
         <div class="col">
           <div class="card h-100">
             <img
@@ -464,11 +497,7 @@
             />
             <div class="card-body mt-2">
               <h5 class="card-title">Manga</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+             <p>"One Piece" manga, penned by Eiichiro Oda, seamlessly combines adventure, humor, and intricate storytelling as it chronicles the journey of Monkey D. Luffy and his diverse crew in search of the elusive treasure, One Piece, in a captivating world filled with mythical islands, powerful foes, and enduring camaraderie.</p>
             </div>
           </div>
         </div>
@@ -481,10 +510,8 @@
             />
             <div class="card-body mt-2">
               <h5 class="card-title">Games</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
-              </p>
+              <p>The "One Piece" video games offer players the opportunity to immerse themselves in the vibrant world of Eiichiro Oda's creation, featuring engaging gameplay, dynamic battles, and the chance to relive key moments from the manga and anime. These games often showcase the Straw Hat Pirates' adventures, allowing fans to experience the thrill of exploring the Grand Line, battling iconic foes, and embracing the spirit of piracy in an interactive gaming experience.</p>
+
             </div>
           </div>
         </div>
@@ -495,10 +522,11 @@
               class="card-img-top"
               alt="..."
             />
-            <div class="card-body">
+            <div class="card-body mt-2">
               <h5 class="card-title">Anime</h5>
-              <p class="card-text">This is a short card.</p>
+              <p class="card-text">The "One Piece" anime, adapted from Eiichiro Oda's manga, stands out as an enduring and beloved series known for its compelling narrative, diverse characters, and epic adventures. Spanning numerous episodes, the anime faithfully brings to life the journey of Monkey D. Luffy and his crew, exploring the vast and imaginative world of the Grand Line. With a perfect blend of action, humor, and heartfelt moments, the anime has garnered a global fanbase, captivating audiences with its rich storytelling and dynamic animation, making it a quintessential part of the anime landscape.</p>
             </div>
+           
           </div>
         </div>
         <div class="col">
@@ -508,9 +536,9 @@
               class="card-img-top"
               alt="..."
             />
-            <div class="card-body">
+            <div class="card-body mt-2">
               <h5 class="card-title">Netflix Adaptation</h5>
-              <p class="card-text">This is a short card.</p>
+              <p class="card-text">The live-action series is executive produced by series creator Eiichiro Oda (also known as Oda-Sensei), created in partnership with Shueisha, and produced by Tomorrow Studios and Netflix. Matt Owens and Steven Maeda are writers, executive producers, and showrunners. Marty Adelstein and Becky Clements also executive produce.</p>
             </div>
           </div>
         </div>
@@ -576,5 +604,29 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById("myImg");
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+      </script>
+
   </body>
 </html>
