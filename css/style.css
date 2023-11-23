@@ -1,47 +1,80 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,700&display=swap");
-
-
-* {
-  margin: 0 auto;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Source+Sans+3:wght@300;400;500;700&display=swap');
 
 
 body {
-  background-color: #B9EFF8 ;
+  background-color: #4DCAF6 ;
+  margin: 0 auto;
+  max-width: 1300px;
 }
 
 /* ------------------------------------------- Colors ------*/
 .navbar-color {
-  background-color: rgba(0,185,255, 0.9);
-  padding: 0;
+  background-color: rgba(220, 15, 13, .8); /*rgba(0,185,255, 0.9); */
 }
+
+#intro {
+ 
+  background-color: rgba(253, 223, 40, .4);
+}
+
+#characters {
+  background-color: rgba(11, 68, 200, .4) ;
+}
+
+#map {
+  background-color: rgba(9, 8, 110, .4);
+}
+
+#media {
+  background-color: rgba(179, 72, 11, .4);
+}
+
+#gallery {
+  background-color: rgba(190,6,32,.4);
+}
+
+#contact {
+  background-color: rgba(223,213,0,.4);
+}
+
 
 /* ------------------------------------------- Headings etc ------*/
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 45px;
 }
 h2 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   margin: 10px 0 10px;
+}
+
+p {
+  font-family: 'Source Sans 3' sans-serif;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 hr {
   border: 2px solid black;
 width: 50%;
-  margin: 0 auto 40px;
+  margin: 0 auto 10px;
+}
+
+.inside-wrapper {
+  background-color: #fafafa;
+  border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
 }
 
 
@@ -53,15 +86,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 10px;
   position: relative;
+  border-radius: 0 0 1.75rem 1.75rem;
 }
 
 /* ------------------------------------------- Nav ------*/
 
-.navbar {
-  z-index: 1;
-}
+
 .navbar-brand img {
   width: 150px;
   padding-top: 5px;
@@ -78,7 +109,9 @@ header {
 .navbar-nav {
   margin: 0 auto;
 }
-
+.navbar-collapse {
+  flex-grow: 0;
+}
 .collapse .nav-item {
   text-transform: uppercase;
   font-weight: 700;
@@ -88,30 +121,31 @@ header {
   padding-right: 15px;
 }
 
-.collapse .nav-item .show {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 22px;
-  letter-spacing: 2px;
-  text-align: right;
-  padding-right: 15px;
+.nav-link {
+  padding-bottom: 0;
 }
 
-/* ------------------------------------------- banner img ------*/
+/* ------------------------------------------- links ------*/
 
+.nav-item .active {
+  border-bottom: 3px solid black;
+}
 
+/* ------------------------------------------- common classes ------*/
+
+.section-border {
+  max-width: 97vw;
+  margin-inline: auto;
+  padding: 1.25rem;
+  border-radius: 3rem;
+}
 
 /* ------------------------------------------- section 1 ------*/
 
-.main-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
+
 .photo {
-  height: 10rem;
-  margin: 0 1rem 1rem 0;
+  height: 11rem;
+  margin: 0 0 1rem 0;
 }
 .photo img {
   width: auto;
@@ -121,13 +155,14 @@ header {
 .main-article {
   background-color: #fafafa;
   padding: 20px;
-  margin-top: 0;
+  margin-top: 10px auto;
+ 
+  
 }
 
 .main-article p {
   text-indent: 20px;
   text-align: left;
-  font-size: 20px;
   letter-spacing: 1.1px;
   margin-bottom: 0;
 }
@@ -141,43 +176,56 @@ header {
   margin-top: 50px;
 }
 .char-frame {
-  margin: 1rem;
-  background-color: #fafafa;
-  text-indent: 20px;
+  
+  max-width: 90%;
+ margin: .5rem;
+ border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
 }
 
-.char-frame figure blockquote {
-  font-size: 14px;
+.char-frame figure blockquote, figcaption {
+  margin-top: 20px;
+  background-color: #fafafa;
+  border-radius: 1.75rem;
+  padding: .5rem;
+  
+  font-size: 15px;
+ 
 }
 .char-frame-left {
-  padding: 1em;
+  padding: 1rem;
+
 }
 
 .char-frame-left img {
   margin: 0 auto;
-  border: 1px solid;
+  border: 1px solid black;
   border-radius: 50%;
   max-width: 75%;
   background-color: white;
 }
 
+.char-paragraphs {
+  background-color: #f0e5e5;
+  border-radius: 1.75rem 0 0 1.75rem;
+}
+
 #luffy {
-  background-color: rgba(215, 0, 0, 0.3);
+  background-color: rgba(215, 0, 0, 1);
 }
 #zoro {
-  background-color: rgba(55, 89, 73, 0.3);
+  background-color: rgba(55, 89, 73, 1);
 }
 #nami {
-  background-color: rgba(230, 125, 40, 0.3);
+  background-color: rgba(230, 125, 40, 1);
 }
 #usopp {
-  background-color: rgba(209, 152, 51, 0.3);
+  background-color: rgba(209, 152, 51, 1);
 }
 #robin {
-  background-color: rgba(89, 55, 121, 0.3);
+  background-color: rgba(89, 55, 121, 1);
 }
 #chopper {
-  background-color: rgba(152, 103, 63, 0.3);
+  background-color: rgba(152, 103, 63, 1);
 }
 
 /* ------------------------------------------- map section ------*/
@@ -269,29 +317,13 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------- media section ------*/
 .card {
   margin-inline: auto;
-  background: #09086E;
+  background: rgba(240, 194, 17, .4);
   padding: 1.25rem;
   border-radius: 3rem;
+  
 }
 
 .card > img {
@@ -299,20 +331,19 @@ header {
 }
 .card-body {
   border-radius: 0 0 1.75rem 1.75rem;
-  color: white;
+  background-color: white;
 }
 
-.card-body h5 {
+.row .card-padding{
+  padding: 0.25rem;
   
-
 }
-
-
 
 /* ------------------------------------------- footer ------*/
 
 footer {
     background-color: rgb(0,185,255);
+    border-radius: 1.75rem 1.75rem 0 0;
 }
 
 .social-links li a i{
@@ -330,4 +361,48 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+
+/* ------------------------------------------- gallery ------*/
+
+.gallery-rows {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+/* Create four equal columns that sits next to each other */
+.gallery-rows .column {
+  flex: 25%;
+  max-width: 33%;
+  padding: 1;
+}
+
+.gallery-rows .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 1.75rem;
+  border: 1px solid black;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.gallery-rows .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .gallery-rows .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* ------------------------------------------- contact ------*/
+
+
 
