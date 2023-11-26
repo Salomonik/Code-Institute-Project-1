@@ -9,7 +9,8 @@
     />
     <meta name="keywords" content="One Piece, Luffy, Nami, Zoro, Blue Line" />
     <meta name="author" content="Jakub Parafian" />
-    <title>One Piece fan page</title>
+    <title>One Piece Fan Page</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/icons/favicon.ico">
 
     <!--cdnjs-->
     <link
@@ -98,7 +99,7 @@
                     <label for="query">Write a message</label>
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-success">Send!</button>
+                    <button type="submit" class="btn btn-success" onclick="clicked(event)">Send!</button>
                   </div>
               </form>
 
@@ -112,9 +113,7 @@
     <!--footer section ------------------------------------------------------->
     <footer class="container-fluid mt-5">
       <div class="row justify-content-center">
-        <!-- About----------------------------------->
-
-        <!-- Download----------------------------------->
+       
 
         <!-- Social----------------------------------->
         <div class="col-sm-6 text-center mt-3">
@@ -189,5 +188,14 @@
         modal.style.display = "none";
       };
     </script>
+<!--button promt on click --------->
+<script>
+  function clicked(e)
+  {
+      if(!confirm('Thanks for leaving a message. We will be in touch soon !')) {
+          e.preventDefault();
+      }
+  }
+  </script>
   </body>
 </html>
