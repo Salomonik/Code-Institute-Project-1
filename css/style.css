@@ -120,12 +120,17 @@ header {
 .nav-link {
   padding-bottom: 0;
   display: inline;
+  color: white;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
 }
 
 /* ------------------------------------------- links ------*/
 
 .nav-item .active {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid white;
 }
 
 /* ------------------------------------------- common classes ------*/
@@ -181,6 +186,10 @@ header {
   padding: 0.5rem;
 
   font-size: 15px;
+}
+
+figcaption cite {
+  color: black;
 }
 
 .char-frame-left {

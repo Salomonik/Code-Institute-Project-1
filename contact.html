@@ -77,54 +77,42 @@
       class="container-fluid section-border section-margins mt-5"
       id="contact"
     >
-      <div class="inside-wrapper">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8 text-center">
-            <form class="m-4" method="post" action="">
-              <div class="form-floating mb-3">
-                <input
-                  type="name"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                  required
-                />
-                <label for="floatingInput">Name</label>
+    <div class="inside-wrapper">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 text-center">
+          
+          <form class="m-4" method="POST" action="https://formdump.codeinstitute.net/">
+              <div class=" form-floating mb-3">
+                  <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com" name="name" required>
+                  <label for="floatingInput">Name</label>
+                  
+              </div>
+              <div class=" form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput2" placeholder="name@example.com" name="email" required>
+                  <label for="floatingInput">Email</label>
               </div>
               <div class="form-floating mb-3">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="floatingInput"
-                  placeholder="name@example.com"
-                  required
-                />
-                <label for="floatingInput">Email</label>
-              </div>
-              <div class="form-floating mb-3">
-                <textarea
-                  name="query"
-                  id="query"
-                  style="height: 150px"
-                  class="form-control"
-                  placeholder="Write a message"
-                >
-                </textarea>
-                <label for="query">Write a message</label>
-              </div>
-              <div class="text-center">
-                <button
-                  type="submit"
-                  class="btn btn-success"
-                  onclick="clicked(event)"
-                >
-                  Send!
-                </button>
-              </div>
+                  <textarea
+                    id="query"
+                    style="height: 150px"
+                    class="form-control"
+                    placeholder="Write a message"
+                    name="message"
+                    required
+                  ></textarea>
+    
+                  <label for="query">Write a message</label>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-success" onclick="clicked(event)">Send!</button>
+                </div>
             </form>
-          </div>
+
+
+          
         </div>
       </div>
+    </div>
     </section>
 
     <!--footer section ------------------------------------------------------->

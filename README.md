@@ -1,4 +1,4 @@
-![Header desktop](./assets/documentation/bannerAndNav.png)
+![Am i responsive](./assets/documentation/amiresponsive.png)
 # One Piece Fan Page
 
 Welcome to the One Piece Fan Page project! This is a dedicated space to explore and celebrate the captivating world created by Eiichiro Oda in One Piece. Here, you'll find information about the characters, the world, the story, and various media related to this incredible manga and anime.
