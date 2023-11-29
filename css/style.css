@@ -1,61 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Source+Sans+3:wght@300;400;500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Source+Sans+3:wght@300;400;500;700&display=swap");
 
 body {
   position: relative;
-  background-color: #4DCAF6 ;
+  background-color: #4dcaf6;
   margin: 0 auto;
   max-width: 1300px;
 }
 
 /* ------------------------------------------- Colors ------*/
 .navbar-color {
-  background-color: rgba(220, 15, 13, .8); /*rgba(0,185,255, 0.9); */
+  background-color: rgba(220, 15, 13, 0.8);
 }
 
 #intro {
- 
-  background-color: rgba(253, 223, 40, .4);
+  background-color: rgba(253, 223, 40, 0.4);
 }
 
 #characters {
-  background-color: rgba(11, 68, 200, .4) ;
+  background-color: rgba(11, 68, 200, 0.4);
 }
 
 #map {
-  background-color: rgba(9, 8, 110, .4);
+  background-color: rgba(9, 8, 110, 0.4);
 }
 
 #media {
-  background-color: rgba(179, 72, 11, .4);
+  background-color: rgba(179, 72, 11, 0.4);
 }
 
 #gallery {
-  background-color: rgba(190,6,32,.4);
+  background-color: rgba(190, 6, 32, 0.4);
 }
 
 #contact {
-  background-color: rgba(223,213,0,.4);
+  background-color: rgba(223, 213, 0, 0.4);
 }
-
 
 /* ------------------------------------------- Headings etc ------*/
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 45px;
 }
 h2 {
   margin-top: 1rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 50px;
-  
 }
 
 h3 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 40px;
@@ -63,14 +59,14 @@ h3 {
 }
 
 p {
-  font-family: 'Source Sans 3' sans-serif;
+  font-family: "Source Sans 3" sans-serif;
   font-weight: 400;
   font-size: 22px;
 }
 
 hr {
   border: 2px solid black;
-width: 50%;
+  width: 50%;
   margin: 1rem auto 2rem;
 }
 
@@ -78,7 +74,6 @@ width: 50%;
   background-color: #fafafa;
   border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
 }
-
 
 /* ------------------------------------------- Header ------*/
 
@@ -93,7 +88,6 @@ header {
 }
 
 /* ------------------------------------------- Nav ------*/
-
 
 .navbar-brand img {
   width: 150px;
@@ -144,10 +138,7 @@ header {
 }
 /* animation for hover */
 
-
-
 /* ------------------------------------------- section 1 ------*/
-
 
 .photo {
   height: 11rem;
@@ -158,16 +149,10 @@ header {
   height: 100%;
 }
 
-
-
-
-
 .main-article {
   background-color: #fafafa;
   padding: 20px;
   margin-top: 10px auto;
- 
-  
 }
 
 .main-article p {
@@ -179,32 +164,27 @@ header {
 
 /* ------------------------------------------- section 2 ------*/
 
-
-
-
 .section-margins {
   margin-top: 50px;
 }
 
 .char-frame {
-  
   max-width: 90%;
- margin: .5rem;
- border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
+  margin: 0.5rem;
+  border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
 }
 
-.char-frame figure blockquote, figcaption {
+.char-frame figure blockquote, figcaption{
   margin-top: 20px;
   background-color: #fafafa;
   border-radius: 1.75rem;
-  padding: .5rem;
-  
+  padding: 0.5rem;
+
   font-size: 15px;
- 
 }
+
 .char-frame-left {
   padding: 1rem;
-
 }
 
 .char-frame-left img {
@@ -241,7 +221,7 @@ header {
 
 /* ------------------------------------------- map section ------*/
 
-
+/*  Modal https://www.w3schools.com/howto/howto_css_modal_images.asp code adjusted to my needs */
 /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 2px;
@@ -249,7 +229,9 @@ header {
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+  opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
@@ -262,8 +244,8 @@ header {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
@@ -287,14 +269,19 @@ header {
 }
 
 /* Add Animation - Zoom in the Modal */
-.modal-content, #caption {
+.modal-content,
+#caption {
   animation-name: zoom;
   animation-duration: 0.6s;
 }
 
 @keyframes zoom {
-  from {transform:scale(0)}
-  to {transform:scale(1)}
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* The Close Button */
@@ -316,20 +303,18 @@ header {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
   .modal-content {
     width: 100%;
   }
 }
 
-
 /* ------------------------------------------- media section ------*/
 .card {
   margin-inline: auto;
-  background: rgba(240, 194, 17, .4);
+  background: rgba(240, 194, 17, 0.4);
   padding: 1.25rem;
   border-radius: 3rem;
-  
 }
 
 .card > img {
@@ -340,52 +325,34 @@ header {
   background-color: white;
 }
 
-.row .card-padding{
+.row .card-padding {
   padding: 0.25rem;
-  
 }
 
 /* ------------------------------------------- footer ------*/
 
 footer {
-    background-color: rgb(0,185,255);
-    border-radius: 1.75rem 1.75rem 0 0;
+  background-color: rgb(0, 185, 255);
+  border-radius: 1.75rem 1.75rem 0 0;
 }
 
-.social-links li a i{
-    width: 48px;
-    height: 48px;
-    padding: 24px 0;
-    border-radius: 50%;
-    font-size: 30px;
-    line-height: 0;
-    text-align: center;
-    color: rgb(223,213,0);
-    background-color: rgb(169,0,0);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+.social-links li a i {
+  width: 48px;
+  height: 48px;
+  padding: 24px 0;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 0;
+  text-align: center;
+  color: rgb(223, 213, 0);
+  background-color: rgb(169, 0, 0);
 }
-
 
 /* ------------------------------------------- gallery ------*/
-
-
-
-
 .gallery-rows {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-}
-
-/* Create four equal columns that sits next to each other */
-.gallery-rows .column {
-  flex: 25%;
-  max-width: 33%;
-  padding: 1;
 }
 
 .gallery-rows .column img {
@@ -396,15 +363,14 @@ footer {
   border: 1px solid black;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .gallery-rows .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+/* media queries for gallery */
+/*default numbers of rows */
+.gallery-rows .column {
+  flex: 50%;
+  max-width: 50%;
+}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*mobile view 1 row */
 @media screen and (max-width: 600px) {
   .gallery-rows .column {
     flex: 100%;
@@ -414,19 +380,19 @@ footer {
 
 /* animation for hover */
 
-.img-hover-zoom img {
-  transition: transform .1s, filter .5s ease-in-out;
+.img-hover img {
+  transition: transform 0.1s, filter 0.5s ease-in-out;
   filter: grayscale(80%);
 }
 
 /* The Transformation */
-.img-hover-zoom:hover img {
+.img-hover:hover img {
   filter: grayscale(0);
- 
 }
 
 /* ------------------------------------------- contact ------*/
-
-
+.btn-success:hover {
+  background-color: rgba(220, 15, 13, 0.8);
+  color: white;
+}
 /* ------------------------------------------- media queries------*/
-

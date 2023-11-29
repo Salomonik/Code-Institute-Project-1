@@ -1,0 +1,42 @@
+ wrote a checklist for Project 1 but I'm not sure if it still misses anything or if I even went way too far with it, but here is what I got so far
+-Make a wireframe with software Balsamiq or other.
+-Write enough brand new HTML and CSS code in your website to prove you can code.
+-For search engines make sure your meta tags in the header contain a good description, and many keywords
+-Use alt and aria-label on every single HYPERLINK, and also every single IMAGE in HTML. | alt="" aria-label="">
+-Make sure the website is interactive, with buttons that change state.
+-Make sure the website is responsive to different devices | display: flex; @media screen and (min-width: 992px);
+-Write an extensive README.md (in Markdown language) with  screenshots of the wireframe, the deployed real website itself, and al lot of text and headers (using # ## ### #### and other Markdown code)
+-Have enough commit messages on your cloud IDE CodeAnyWhere | git commit -m
+-Make sure the navbar or content doesn't completely disappear on the website when its width is modified, especially when reduced in DevTools.
+-Have a form that succesfully submits with a method="POST"
+-Give credit to all material you have used, from HTML code, to CSS code, to images to even any design concept, give this
+credit in the HTML page as text, also in the <!-- --> comments, as /* */ in the the CSS page, and also in the README.md file.
+(copy-paste to save yourself some time)
+-Validate all HTML and CSS files with W3 Validator, not a single error is allowed.
+-Use Google Lighthouse (F12 in Chrome) to make sure your text and images have enough color contrast.
+-Make sure you contacted your mentor 3 times
+-Add the favicons in assets/favicon  | apple-touch-icon.png, favicon-32x32.png, favicon-16x16.png
+-Call your homepage index.html
+-Use relative links only | ../images/pexels-photo.webp
+-Enable your github page and test that it works on https://youraccountname.github.io/yourrepositoryname
+-Use webp images not jpg because webp loads much faster.
+-Don't use fonts that are hard to read
+-Don't import too many fonts in the css file or even font weights that your website doesn't use at all, they slow down performance
+-Use an external stylesheet | <link rel="stylesheet" href="assets/css/style.css">
+-Use semantic elements like <header> and <nav> and <main> and <section> and <article> and <footer> (in this order)
+-Use your own fontawesome kit, the one from the code institute is <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script> but you should use your own kit that you get from fontawesome.com
+-Indentation should be done with 4 times spacebar and never tab, and it's extremely important that the opening html tags for most of the page structure < > and closing tags < /> line up perfectly vertically
+-Autoplay has to be disabled if you have video or audio content on your page
+-Comment the HTML and CSS files with <!-- --> and /* */ about what most of the lines do exactly
+-Have at least 3 pages on your website
+-Always use high resolution images, pixelized looking is not allowed
+-External websites should open with <a href="" target="_blank" rel="noopener" aria-label=""> against hacking
+-Comment out code is not allowed in the final submitted version
+-Lorem Ipsum placeholder text is not allowed
+-The website has to be very easy to use, no hard to find buttons etc
+-No broken links of any kind are allowed
+-Use an assets folder and subfolders to organize your files, not allowed to mix different files together in one folder
+-Document your bugs and fixes in Github commits and the README.md file
+-Use appropriate file names for all your files including images, don't have files with only numbers or unknown names, rename them to something very clear
+-Make sure commit messages are as short as possible, for example "Added the images" is not allowed you always write "Add images"
+-lowercase letters only for filenames, and no spaces, always use the hypen or minus sign like - instead of a space (edited) 

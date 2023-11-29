@@ -10,7 +10,11 @@
     <meta name="keywords" content="One Piece, Luffy, Nami, Zoro, Blue Line" />
     <meta name="author" content="Jakub Parafian" />
     <title>One Piece Fan Page</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/icons/favicon.ico">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/img/icons/favicon.ico"
+    />
 
     <!--cdnjs-->
     <link
@@ -68,7 +72,7 @@
         </nav>
       </div>
     </header>
-
+    <!--form section ------------------------------------------------------->
     <section
       class="container-fluid section-border section-margins mt-5"
       id="contact"
@@ -76,35 +80,48 @@
       <div class="inside-wrapper">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 text-center">
-            
-            <form class="m-4">
-                <div class=" form-floating mb-3">
-                    <input type="name" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Name</label>
-                    
-                </div>
-                <div class=" form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <textarea
-                      name="query"
-                      id="query"
-                      style="height: 150px"
-                      class="form-control"
-                      placeholder="Write a message"
-                    ></textarea>
-      
-                    <label for="query">Write a message</label>
-                  </div>
-                  <div class="text-center">
-                    <button type="submit" class="btn btn-success" onclick="clicked(event)">Send!</button>
-                  </div>
-              </form>
-
-
-            
+            <form class="m-4" method="post" action="">
+              <div class="form-floating mb-3">
+                <input
+                  type="name"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea
+                  name="query"
+                  id="query"
+                  style="height: 150px"
+                  class="form-control"
+                  placeholder="Write a message"
+                >
+                </textarea>
+                <label for="query">Write a message</label>
+              </div>
+              <div class="text-center">
+                <button
+                  type="submit"
+                  class="btn btn-success"
+                  onclick="clicked(event)"
+                >
+                  Send!
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
@@ -113,37 +130,60 @@
     <!--footer section ------------------------------------------------------->
     <footer class="container-fluid mt-5">
       <div class="row justify-content-center">
-       
-
         <!-- Social----------------------------------->
         <div class="col-sm-6 text-center mt-3">
           <ul class="list-inline social-links">
             <li class="list-inline-item">
-              <a href="https://www.twitter.com" target="_blank">
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Twitter"
+              >
                 <i class="fa-brands fa-twitter"></i>
                 <span class="sr-only">Twitter</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.facebook.com" target="_blank">
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+              >
                 <i class="fa-brands fa-facebook"></i>
                 <span class="sr-only">Facebook</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.instagram.com" target="_blank">
+              <a
+                href="https://www.instagram.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Instagram"
+              >
                 <i class="fa-brands fa-instagram"></i>
                 <span class="sr-only">Instagram</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.youtube.com" target="_blank">
+              <a
+                href="https://www.youtube.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Youtube"
+              >
                 <i class="fa-brands fa-youtube"></i>
                 <span class="sr-only">Youtube</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.twitch.com" target="_blank">
+              <a
+                href="https://www.twitch.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Twitch"
+              >
                 <i class="fa-brands fa-twitch"></i>
                 <span class="sr-only">Twitch</span>
               </a>
@@ -188,14 +228,15 @@
         modal.style.display = "none";
       };
     </script>
-<!--button promt on click --------->
-<script>
-  function clicked(e)
-  {
-      if(!confirm('Thanks for leaving a message. We will be in touch soon !')) {
+    <!--button promt on click --------->
+    <script>
+      function clicked(e) {
+        if (
+          !confirm("Thanks for leaving a message. We will be in touch soon !")
+        ) {
           e.preventDefault();
+        }
       }
-  }
-  </script>
+    </script>
   </body>
 </html>
