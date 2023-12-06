@@ -1,725 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="One Piece website for fans and newcomers"
-    />
-    <meta name="keywords" content="One Piece, Luffy, Nami, Zoro, Blue Line" />
-    <meta name="author" content="Jakub Parafian" />
-    <title>One Piece Fan Page</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/img/icons/favicon.ico"
-    />
 
-    <!--cdnjs-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/ba182bdcb1.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google Fonts-->
-    <!-- CSS stylesheet-->
-    <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container-fluid navigation-container px-0">
-        <nav class="navbar navbar-expand-lg navbar-color">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"
-              ><img
-                src="./assets/img/backgrounds/1o4nanih5032tc9uj9n8hvlqpg-c62fdbb8fffaee960911d28108017d2c.png"
-                alt="one piece logo"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./index.html"
-                    >Home</a
-                  >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="One Piece website for fans and newcomers" />
+  <meta name="keywords" content="One Piece, Luffy, Nami, Zoro, Blue Line" />
+  <meta name="author" content="Jakub Parafian" />
+  <title>One Piece Fan Page</title>
+  <link rel="icon" type="image/x-icon" href="./assets/img/icons/favicon.ico" />
+
+  <!--cdnjs-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/ba182bdcb1.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts-->
+  <!-- CSS stylesheet-->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid navigation-container px-0">
+      <nav class="navbar navbar-expand-lg navbar-color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"><img
+              src="./assets/img/backgrounds/1o4nanih5032tc9uj9n8hvlqpg-c62fdbb8fffaee960911d28108017d2c.png"
+              alt="one piece logo" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-1">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--Main Section - Introduction------------------------------------------------------->
+  <section class="container-fluid section-margins section-border" id="intro">
+    <div class="inside-wrapper">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center">Introduction to the World of One Piece</h2>
+          <hr />
+        </div>
+      </div>
+
+      <div class="row main-section">
+        <div class="col-12 photo text-center">
+          <img class="img-fluid rounded-2 mb-4" src="./assets/img/arts/luffy.jpg"
+            alt="Character Monkey D. Luffy from One Piece" aria-label="Character Monkey D. Luffy from One Piece" />
+          <img class="d-none d-sm-inline img-fluid rounded-2 mb-4"
+            src="./assets/img/arts/Monkey-Luffy-One-Piece-Netflix.jpg"
+            alt="Another image of Monkey D. Luffy from One Piece"
+            aria-label="Another image of Monkey D. Luffy from One Piece" />
+          <img class="d-none d-sm-inline img-fluid rounded-2 mb-4" src="./assets/img/arts/eiji-aonuma.webp"
+            alt="Image related to Eiichiro Oda, the creator of One Piece"
+            aria-label="Image related to Eiichiro Oda, the creator of One Piece" />
+        </div>
+        <!--article------------------------------------------------------->
+        <div class="col-11 main-article mx-auto mb-4">
+          <h3 class="text-center">What is One Piece ?</h3>
+
+          <div class="row">
+            <div class="col-sm-6 col-md-4 main-article mb-4 p-2">
+              <p>
+                <strong>"One Piece"</strong> is a manga series created by
+                Eiichiro Oda. It made its debut in "Weekly Shonen Jump" in
+                1997, captivating readers with its adventurous and imaginative
+                world. Eiichiro Oda's inspiration for the series drew from his
+                childhood fascination with pirates, which he skillfully
+                incorporated into the story's rich narrative. The manga's
+                instant and enduring success led to it becoming a cultural
+                phenomenon both in Japan and across the globe. Cultural Impact
+                and Legacy.
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-4 main-article mb-4 p-2">
+              <p>
+                <strong>"One Piece"</strong> has had a profound impact on
+                popular culture, introducing iconic characters, symbols, and a
+                treasure trove of memorable moments. The series imparts
+                valuable life lessons such as the significance of friendship,
+                the power of courage, and the pursuit of dreams, which
+                continue to resonate with fans of all ages. Beyond the manga
+                and anime, "One Piece" has expanded into movies, video games,
+                merchandise, and more, cementing its status as a cultural
+                juggernaut with a dedicated global fanbase. Production
+                Insights
+              </p>
+            </div>
+            <div class="col-sm-6 col-md-4 main-article mb-4 p-2">
+              <p>
+                <strong>Eiichiro Oda's</strong> approach to creating "One
+                Piece" is marked by meticulous planning. He meticulously
+                charts out every facet of the story, resulting in a world that
+                is richly layered and filled with hidden meanings. Oda draws
+                inspiration from a wide array of sources, including history,
+                folklore, cultural references, and his own life experiences,
+                infusing the series with depth and authenticity. "One Piece"
+                has transcended the boundaries of manga and anime, branching
+                into diverse media and merchandise, thereby solidifying its
+                place as an enduring cultural icon.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--pictures------------------------------------------------------->
+      </div>
+    </div>
+  </section>
+  <!--Characters Section----------------------------------------------------->
+  <section class="container-fluid section-margins section-border" id="characters">
+    <div class="inside-wrapper">
+      <div class="row">
+        <div class="col">
+          <h2 class="heading text-center">One Piece Characters</h2>
+          <hr />
+        </div>
+      </div>
+
+      <div class="row justify-content-evenly">
+        <!--luffy-->
+        <div class="col-md-12 char-frame" id="luffy">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center char-frame-left">
+              <img src="./assets/img/characters/lufy.png" alt="Monkey D. Luffy" aria-label="Monkey D. Luffy" />
+              <figure>
+                <blockquote class="blockquote">
+                  <p>
+                    "I don't want to conquer anything. I just think the guy
+                    with the most freedom in this whole ocean... that's the
+                    Pirate King!"
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Monkey D. Luffy</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-8 char-paragraphs">
+              <h3>Monkey D. Luffy</h3>
+              <hr />
+              <p>
+                Monkey D. Luffy is the heart and soul of the Straw Hat
+                Pirates. He's a fearless and adventurous young pirate with a
+                heart of gold. Luffy's defining characteristic is his ability
+                to stretch his body like rubber, which he gained after
+                consuming the Gomu Gomu no Mi Devil Fruit. His dream is to
+                become the Pirate King by discovering the legendary treasure
+                "One Piece." Luffy is fiercely loyal to his crew, and his
+                fearless determination and infectious enthusiasm inspire those
+                around him. He's known for his signature straw hat and his
+                unwavering commitment to doing what's right.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--zoro-->
+        <div class="col-md-12 char-frame" id="zoro">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center char-frame-left">
+              <img src="./assets/img/characters/zoro.png" alt="Roronoa Zoro" aria-label="Roronoa Zoro" />
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>
+                    "I have nothing to protect... Nothing... and nothing to
+                    lose... That's the only reason why I can fight... Yeah,
+                    it's enough."
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Roronoa Zoro</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-8 char-paragraphs">
+              <h3>Roronoa Zoro</h3>
+              <hr />
+              <p>
+                Roronoa Zoro is the Straw Hat Pirates' first mate and a master
+                swordsman. He wields a unique three-sword style, demonstrating
+                extraordinary skills in combat. Zoro's dream is to become the
+                world's greatest swordsman, which requires finding the
+                mythical "World's Strongest Sword." He is stoic, dedicated,
+                and highly disciplined, often embodying the role of the crew's
+                combat specialist. His loyalty to Luffy and his relentless
+                pursuit of his dream make him a formidable and respected
+                member of the crew.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--nami-->
+        <div class="col-md-12 char-frame" id="nami">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center char-frame-left">
+              <img src="./assets/img/characters/nami.png" alt="Nami" aria-label="Nami" />
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>
+                    "I want to live! So, even if I die here, I'm going to
+                    return the money and the world."
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Nami</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-8 char-paragraphs">
+              <h3>Nami</h3>
+              <hr />
+              <p>
+                Nami is the crew's brilliant navigator, and her sharp
+                intellect and navigational expertise are second to none. She
+                initially worked as a cartographer and thief but found a new
+                home and purpose with the Straw Hat Pirates. Nami's primary
+                goal is to amass a considerable fortune to free her home
+                village from the oppressive rule of the fish-man pirate
+                Arlong. Despite her tough exterior, she cares deeply for her
+                crewmates and is an essential member of the team.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--usopp-->
+        <div class="col-md-12 char-frame" id="usopp">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center char-frame-left">
+              <img src="./assets/img/characters/usopp.png" alt="Usopp" aria-label="Usopp" />
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>
+                    "Inherited Will, the swelling of the changing times, and
+                    the dreams of people living on, will never cease to flow."
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Usopp</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-8 char-paragraphs">
+              <h3>Usopp</h3>
+              <hr />
+              <p>
+                Usopp is a gifted storyteller and the crew's sharpshooter. His
+                vivid imagination often leads to elaborate tales and tall
+                tales, earning him the nickname "God Usopp" among his friends.
+                He dreams of becoming a brave and legendary sea hero, and he
+                plays a dual role on the crew as both a sharpshooter and a
+                storyteller. Usopp's loyalty to his crew is unwavering, and
+                his inventive and creative nature often proves invaluable in
+                their adventures.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Robin-->
+        <div class="col-md-12 char-frame" id="robin">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center char-frame-left">
+              <img src="./assets/img/characters/robin.png" alt="Nico Robin" aria-label="Nico Robin" />
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>
+                    "When do you think people die? When they eat a soup made
+                    from a poisonous mushroom? No. When they eat the soup a
+                    second time? No. People die when they are forgotten."
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Nico Robin</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-8 char-paragraphs">
+              <h3>Nico Robin</h3>
+              <hr />
+              <p>
+                Nico Robin is an enigmatic archaeologist and historian who
+                brings a deep understanding of the Poneglyphs to the Straw Hat
+                Pirates. These ancient stones hold the hidden history of the
+                world. Her ultimate ambition is to uncover the long-forgotten
+                history preserved within the Poneglyphs. Robin is a reserved
+                and highly intelligent member of the crew, and her knowledge
+                proves indispensable in their quest for the "One Piece."
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--Chopper-->
+        <div class="col-md-12 char-frame" id="chopper">
+          <div class="row">
+            <div class="col-12 col-md-4 text-center char-frame-left">
+              <img src="./assets/img/characters/chopper.png" alt="Tony Tony Chopper" aria-label="Tony Tony Chopper" />
+
+              <figure>
+                <blockquote class="blockquote">
+                  <p>
+                    "Even if I don't have a heart, I can still feel. Just like
+                    a human. That's why I know that I am alive."
+                  </p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  <cite title="Source Title">Tony Tony Chopper</cite>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="col-12 col-md-8 char-paragraphs">
+              <h3>Tony Tony Chopper</h3>
+              <hr />
+              <p>
+                Tony Tony Chopper is a reindeer who ate the Human-Human Fruit,
+                allowing him to transform into a human. As the Straw Hat
+                Pirates' doctor, he has various forms, including a smaller
+                "Brain Point" and a larger "Heavy Point." Chopper's innocence
+                and kindness make him endearing, though he can be easily
+                frightened. Originally an outcast in Drum Island, he was taken
+                in by Dr. Hiluluk, who inspired him to become a doctor.
+                Chopper's dream is to be a great doctor and cure any disease,
+                motivated by his desire to help others. His unique abilities
+                and lovable personality contribute to the charm of "One
+                Piece."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- world map section-->
+  <section class="container-fluid section-margins section-border" id="map">
+    <div class="inside-wrapper">
+      <div class="row">
+        <div class="col">
+          <h2 class="heading text-center">
+            Introduction to the World of One Piece
+          </h2>
+          <hr />
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <div class="clearfix">
+              <!-- Modal https://www.w3schools.com/howto/howto_css_modal_images.asp code adjusted to my needs -->
+              <!-- Trigger the Modal -->
+              <img id="myImg" src="./assets/img/backgrounds/map.jpg"
+                class="col-md-4 float-md-end mb-3 ms-md-3 img-fluid" alt="One Piece World Map"
+                style="width: 100%; max-width: 300px" aria-label="One Piece World Map" title="Click to enlarge" />
+
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- The Close Button -->
+                <span class="close" onclick="closeModal()">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img src="./assets/img/backgrounds/map.jpg" class="modal-content" id="img01"
+                  alt="One Piece World Map" />
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+              </div>
+              <p>
+                The world of <strong>"One Piece"</strong> is vast and diverse,
+                comprising several seas, islands, and continents.
+                <strong>The Grand Line, a dangerous and unpredictable sea</strong>
+                , is central to the story, and it is here that the most
+                powerful pirates seek the One Piece. The world is also home to
+                various powerful organizations, such as the Marines, who
+                enforce justice, and the Yonko, the four most powerful pirates
+                in the world.
+              </p>
+              <ul style="list-style-type: square">
+                <li>
+                  <p>
+                    <strong>Grand Line:</strong> This is the central area
+                    where most events in the series take place. It is an
+                    unpredictable sea full of dangers such as weather
+                    anomalies, unique sea creatures, and mysterious places.
+                    The Grand Line is divided into two parts: Paradise (also
+                    known as the first half) and the New World (also known as
+                    the second half). To enter the Grand Line, one needs to
+                    pass through Reverse Mountain or the Calm Belt.
+                  </p>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./gallery.html">Gallery</a>
+                <li>
+                  <p>
+                    <strong>Calm Belt:</strong> This is an area to the north
+                    and south of the Grand Line, filled with powerful sea
+                    creatures. Ships are unable to use the wind in the Calm
+                    Belt, making it a very dangerous place for sailors.
+                  </p>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
+                <li>
+                  <p>
+                    <strong>Red Line:</strong> This is a massive, vertical
+                    rock wall that divides the world into two parts and
+                    connects with another key area, Mariejois. The Red Line is
+                    also where some of the most important cities are located,
+                    such as Reverse Mountain, the starting point of the Grand
+                    Line.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Red Line:</strong> It is a sacred city where the
+                    World Nobles reside. Located at the top of the Red Line,
+                    it holds strategic importance. It is also the site of many
+                    crucial events in the "One Piece" world.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <strong>Fish-Man Island:</strong> Positioned under the Red
+                    Line, this is a place inhabited by fish-men. It is a
+                    crucial area where the Grand Line and Red Line intersect.
+                  </p>
                 </li>
               </ul>
             </div>
           </div>
-        </nav>
-      </div>
-    </header>
-    <!--Main Section - Introduction------------------------------------------------------->
-    <section class="container-fluid section-margins section-border" id="intro">
-      <div class="inside-wrapper">
-        <div class="row">
-          <div class="col">
-            <h2 class="text-center">Introduction to the World of One Piece</h2>
-            <hr />
-          </div>
-        </div>
-
-        <div class="row main-section">
-          <div class="col-12 photo text-center">
-            <img
-              class="img-fluid rounded-2 mb-4"
-              src="./assets/img/arts/luffy.jpg"
-              alt="Character Monkey D. Luffy from One Piece"
-              aria-label="Character Monkey D. Luffy from One Piece"
-            />
-            <img
-              class="d-none d-sm-inline img-fluid rounded-2 mb-4"
-              src="./assets/img/arts/Monkey-Luffy-One-Piece-Netflix.jpg"
-              alt="Another image of Monkey D. Luffy from One Piece"
-              aria-label="Another image of Monkey D. Luffy from One Piece"
-            />
-            <img
-              class="d-none d-sm-inline img-fluid rounded-2 mb-4"
-              src="./assets/img/arts/eiji-aonuma.webp"
-              alt="Image related to Eiichiro Oda, the creator of One Piece"
-              aria-label="Image related to Eiichiro Oda, the creator of One Piece"
-            />
-          </div>
-          <!--article------------------------------------------------------->
-          <div class="col-11 main-article mx-auto mb-4">
-            <h3 class="text-center">What is One Piece ?</h3>
-            
-            <div class="row">
-              <div class="col-sm-6 col-md-4 main-article mb-4 p-2"><p>
-                <strong>"One Piece"</strong> is a manga series created by Eiichiro
-                Oda. It made its debut in "Weekly Shonen Jump" in 1997,
-                captivating readers with its adventurous and imaginative world.
-                Eiichiro Oda's inspiration for the series drew from his childhood
-                fascination with pirates, which he skillfully incorporated into
-                the story's rich narrative. The manga's instant and enduring
-                success led to it becoming a cultural phenomenon both in Japan and
-                across the globe. Cultural Impact and Legacy.
-              </p></div>
-              <div class="col-sm-6 col-md-4 main-article mb-4 p-2"><p>
-                <strong>"One Piece"</strong> has had a profound impact on popular
-                culture, introducing iconic characters, symbols, and a treasure
-                trove of memorable moments. The series imparts valuable life
-                lessons such as the significance of friendship, the power of
-                courage, and the pursuit of dreams, which continue to resonate
-                with fans of all ages. Beyond the manga and anime, "One Piece" has
-                expanded into movies, video games, merchandise, and more,
-                cementing its status as a cultural juggernaut with a dedicated
-                global fanbase. Production Insights
-              </p></div>
-              <div class="col-sm-6 col-md-4 main-article mb-4 p-2"><p>
-                <strong>Eiichiro Oda's</strong> approach to creating "One Piece"
-                is marked by meticulous planning. He meticulously charts out every
-                facet of the story, resulting in a world that is richly layered
-                and filled with hidden meanings. Oda draws inspiration from a wide
-                array of sources, including history, folklore, cultural
-                references, and his own life experiences, infusing the series with
-                depth and authenticity. "One Piece" has transcended the boundaries
-                of manga and anime, branching into diverse media and merchandise,
-                thereby solidifying its place as an enduring cultural icon.
-              </p></div>
-            </div>
-            
-          </div>
-
-
-
-
-          <!--pictures------------------------------------------------------->
         </div>
       </div>
-    </section>
-    <!--Characters Section----------------------------------------------------->
-    <section
-      class="container-fluid section-margins section-border"
-      id="characters"
-    >
-      <div class="inside-wrapper">
-        <div class="row">
-          <div class="col">
-            <h2 class="heading text-center">One Piece Characters</h2>
-            <hr />
-          </div>
-        </div>
-
-        <div class="row justify-content-evenly">
-          <!--luffy-->
-          <div class="col-md-12 char-frame" id="luffy">
-            <div class="row">
-              <div class="col-12 col-md-4 text-center char-frame-left">
-                <img
-                  src="./assets/img/characters/lufy.png"
-                  alt="Monkey D. Luffy"
-                  aria-label="Monkey D. Luffy"
-                />
-                <figure>
-                  <blockquote class="blockquote">
-                    <p>
-                      "I don't want to conquer anything. I just think the guy
-                      with the most freedom in this whole ocean... that's the
-                      Pirate King!"
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer">
-                    <cite title="Source Title">Monkey D. Luffy</cite>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="col-12 col-md-8 char-paragraphs">
-                <h3>Monkey D. Luffy</h3>
-                <hr />
-                <p>
-                  Monkey D. Luffy is the heart and soul of the Straw Hat
-                  Pirates. He's a fearless and adventurous young pirate with a
-                  heart of gold. Luffy's defining characteristic is his ability
-                  to stretch his body like rubber, which he gained after
-                  consuming the Gomu Gomu no Mi Devil Fruit. His dream is to
-                  become the Pirate King by discovering the legendary treasure
-                  "One Piece." Luffy is fiercely loyal to his crew, and his
-                  fearless determination and infectious enthusiasm inspire those
-                  around him. He's known for his signature straw hat and his
-                  unwavering commitment to doing what's right.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--zoro-->
-          <div class="col-md-12 char-frame" id="zoro">
-            <div class="row">
-              <div class="col-12 col-md-4 text-center char-frame-left">
-                <img
-                  src="./assets/img/characters/zoro.png"
-                  alt="Roronoa Zoro"
-                  aria-label="Roronoa Zoro"
-                />
-
-                <figure>
-                  <blockquote class="blockquote">
-                    <p>
-                      "I have nothing to protect... Nothing... and nothing to
-                      lose... That's the only reason why I can fight... Yeah,
-                      it's enough."
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer">
-                    <cite title="Source Title">Roronoa Zoro</cite>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="col-12 col-md-8 char-paragraphs">
-                <h3>Roronoa Zoro</h3>
-                <hr />
-                <p>
-                  Roronoa Zoro is the Straw Hat Pirates' first mate and a master
-                  swordsman. He wields a unique three-sword style, demonstrating
-                  extraordinary skills in combat. Zoro's dream is to become the
-                  world's greatest swordsman, which requires finding the
-                  mythical "World's Strongest Sword." He is stoic, dedicated,
-                  and highly disciplined, often embodying the role of the crew's
-                  combat specialist. His loyalty to Luffy and his relentless
-                  pursuit of his dream make him a formidable and respected
-                  member of the crew.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--nami-->
-          <div class="col-md-12 char-frame" id="nami">
-            <div class="row">
-              <div class="col-12 col-md-4 text-center char-frame-left">
-                <img
-                  src="./assets/img/characters/nami.png"
-                  alt="Nami"
-                  aria-label="Nami"
-                />
-
-                <figure>
-                  <blockquote class="blockquote">
-                    <p>
-                      "I want to live! So, even if I die here, I'm going to
-                      return the money and the world."
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer">
-                    <cite title="Source Title">Nami</cite>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="col-12 col-md-8 char-paragraphs">
-                <h3>Nami</h3>
-                <hr />
-                <p>
-                  Nami is the crew's brilliant navigator, and her sharp
-                  intellect and navigational expertise are second to none. She
-                  initially worked as a cartographer and thief but found a new
-                  home and purpose with the Straw Hat Pirates. Nami's primary
-                  goal is to amass a considerable fortune to free her home
-                  village from the oppressive rule of the fish-man pirate
-                  Arlong. Despite her tough exterior, she cares deeply for her
-                  crewmates and is an essential member of the team.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--usopp-->
-          <div class="col-md-12 char-frame" id="usopp">
-            <div class="row">
-              <div class="col-12 col-md-4 text-center char-frame-left">
-                <img
-                  src="./assets/img/characters/usopp.png"
-                  alt="Usopp"
-                  aria-label="Usopp"
-                />
-
-                <figure>
-                  <blockquote class="blockquote">
-                    <p>
-                      "Inherited Will, the swelling of the changing times, and
-                      the dreams of people living on, will never cease to flow."
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer">
-                    <cite title="Source Title">Usopp</cite>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="col-12 col-md-8 char-paragraphs">
-                <h3>Usopp</h3>
-                <hr />
-                <p>
-                  Usopp is a gifted storyteller and the crew's sharpshooter. His
-                  vivid imagination often leads to elaborate tales and tall
-                  tales, earning him the nickname "God Usopp" among his friends.
-                  He dreams of becoming a brave and legendary sea hero, and he
-                  plays a dual role on the crew as both a sharpshooter and a
-                  storyteller. Usopp's loyalty to his crew is unwavering, and
-                  his inventive and creative nature often proves invaluable in
-                  their adventures.
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Robin-->
-          <div class="col-md-12 char-frame" id="robin">
-            <div class="row">
-              <div class="col-12 col-md-4 text-center char-frame-left">
-                <img
-                  src="./assets/img/characters/robin.png"
-                  alt="Nico Robin"
-                  aria-label="Nico Robin"
-                />
-
-                <figure>
-                  <blockquote class="blockquote">
-                    <p>
-                      "When do you think people die? When they eat a soup made
-                      from a poisonous mushroom? No. When they eat the soup a
-                      second time? No. People die when they are forgotten."
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer">
-                    <cite title="Source Title">Nico Robin</cite>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="col-12 col-md-8 char-paragraphs">
-                <h3>Nico Robin</h3>
-                <hr />
-                <p>
-                  Nico Robin is an enigmatic archaeologist and historian who
-                  brings a deep understanding of the Poneglyphs to the Straw Hat
-                  Pirates. These ancient stones hold the hidden history of the
-                  world. Her ultimate ambition is to uncover the long-forgotten
-                  history preserved within the Poneglyphs. Robin is a reserved
-                  and highly intelligent member of the crew, and her knowledge
-                  proves indispensable in their quest for the "One Piece."
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--Chopper-->
-          <div class="col-md-12 char-frame" id="chopper">
-            <div class="row">
-              <div class="col-12 col-md-4 text-center char-frame-left">
-                <img
-                  src="./assets/img/characters/chopper.png"
-                  alt="Tony Tony Chopper"
-                  aria-label="Tony Tony Chopper"
-                />
-
-                <figure>
-                  <blockquote class="blockquote">
-                    <p>
-                      "Even if I don't have a heart, I can still feel. Just like
-                      a human. That's why I know that I am alive."
-                    </p>
-                  </blockquote>
-                  <figcaption class="blockquote-footer">
-                    <cite title="Source Title">Tony Tony Chopper</cite>
-                  </figcaption>
-                </figure>
-              </div>
-
-              <div class="col-12 col-md-8 char-paragraphs">
-                <h3>Tony Tony Chopper</h3>
-                <hr />
-                <p>
-                  Tony Tony Chopper is a reindeer who ate the Human-Human Fruit,
-                  allowing him to transform into a human. As the Straw Hat
-                  Pirates' doctor, he has various forms, including a smaller
-                  "Brain Point" and a larger "Heavy Point." Chopper's innocence
-                  and kindness make him endearing, though he can be easily
-                  frightened. Originally an outcast in Drum Island, he was taken
-                  in by Dr. Hiluluk, who inspired him to become a doctor.
-                  Chopper's dream is to be a great doctor and cure any disease,
-                  motivated by his desire to help others. His unique abilities
-                  and lovable personality contribute to the charm of "One
-                  Piece."
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- world map section-->
-    <section class="container-fluid section-margins section-border" id="map">
-      <div class="inside-wrapper">
-        <div class="row">
-          <div class="col">
-            <h2 class="heading text-center">
-              Introduction to the World of One Piece
-            </h2>
-            <hr />
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="col-11">
-              <div class="clearfix">
-                <!-- Modal https://www.w3schools.com/howto/howto_css_modal_images.asp code adjusted to my needs -->
-                <!-- Trigger the Modal -->
-                <img
-                  id="myImg"
-                  src="./assets/img/backgrounds/map.jpg"
-                  class="col-md-4 float-md-end mb-3 ms-md-3 img-fluid"
-                  alt="One Piece World Map"
-                  style="width: 100%; max-width: 300px"
-                  aria-label="One Piece World Map"
-                  title="Click to enlarge"
-                />
-
-                <!-- The Modal -->
-                <div id="myModal" class="modal">
-                  <!-- The Close Button -->
-                  <span class="close" onclick="closeModal()">&times;</span>
-
-                  <!-- Modal Content (The Image) -->
-                  <img
-                  src="./assets/img/backgrounds/map.jpg"
-                    class="modal-content"
-                    id="img01"
-                    alt="One Piece World Map"
-                  />
-
-                  <!-- Modal Caption (Image Text) -->
-                  <div id="caption"></div>
-                </div>
-                <p>
-                  The world of <strong>"One Piece"</strong> is vast and diverse,
-                  comprising several seas, islands, and continents.
-                  <strong
-                    >The Grand Line, a dangerous and unpredictable sea</strong
-                  >
-                  , is central to the story, and it is here that the most
-                  powerful pirates seek the One Piece. The world is also home to
-                  various powerful organizations, such as the Marines, who
-                  enforce justice, and the Yonko, the four most powerful pirates
-                  in the world.
-                </p>
-                <ul style="list-style-type: square">
-                  <li>
-                    <p>
-                      <strong>Grand Line:</strong> This is the central area
-                      where most events in the series take place. It is an
-                      unpredictable sea full of dangers such as weather
-                      anomalies, unique sea creatures, and mysterious places.
-                      The Grand Line is divided into two parts: Paradise (also
-                      known as the first half) and the New World (also known as
-                      the second half). To enter the Grand Line, one needs to
-                      pass through Reverse Mountain or the Calm Belt.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <strong>Calm Belt:</strong> This is an area to the north
-                      and south of the Grand Line, filled with powerful sea
-                      creatures. Ships are unable to use the wind in the Calm
-                      Belt, making it a very dangerous place for sailors.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <strong>Red Line:</strong> This is a massive, vertical
-                      rock wall that divides the world into two parts and
-                      connects with another key area, Mariejois. The Red Line is
-                      also where some of the most important cities are located,
-                      such as Reverse Mountain, the starting point of the Grand
-                      Line.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <strong>Red Line:</strong> It is a sacred city where the
-                      World Nobles reside. Located at the top of the Red Line,
-                      it holds strategic importance. It is also the site of many
-                      crucial events in the "One Piece" world.
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <strong>Fish-Man Island:</strong> Positioned under the Red
-                      Line, this is a place inhabited by fish-men. It is a
-                      crucial area where the Grand Line and Red Line intersect.
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- media section-->
-    <section class="container-fluid section-margins section-border" id="media">
-      <div class="inside-wrapper">
-        <div class="row justify-content-center">
-          <div class="col">
-            <h2 class="heading uppercase text-center">Media</h2>
-            <hr />
-          </div>
-        </div>
-        <!-- media cards-->
-        <div
-          class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 mx-1 justify-content-center"
-        >
-          <div class="col card-padding">
-            <div class="card h-100">
-              <img
-                src="./assets/img/arts/81IgOp0fOiL._SL1500_.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body mt-2">
-                <h3 class="card-title">Manga</h3>
-                <p>
-                  "One Piece" manga, penned by Eiichiro Oda, seamlessly combines
-                  adventure, humor, and intricate storytelling as it chronicles
-                  the journey of Monkey D. Luffy and his diverse crew in search
-                  of the elusive treasure, One Piece, in a captivating world
-                  filled with mythical islands, powerful foes, and enduring
-                  camaraderie.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col card-padding">
-            <div class="card h-100">
-              <img
-                src="./assets/img/arts/one-piece-odyssey-cover.webp"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body mt-2">
-                <h3 class="card-title">Games</h3>
-                <p>
-                  The "One Piece" video games offer players the opportunity to
-                  immerse themselves in the vibrant world of Eiichiro Oda's
-                  creation, featuring engaging gameplay, dynamic battles, and
-                  the chance to relive key moments from the manga and anime.
-                  These games often showcase the Straw Hat Pirates' adventures,
-                  allowing fans to experience the thrill of exploring the Grand
-                  Line, battling iconic foes, and embracing the spirit of piracy
-                  in an interactive gaming experience.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col card-padding">
-            <div class="card h-100">
-              <img
-                src="./assets/img/arts/61KNVDD21YL._AC_UF1000,1000_QL80_.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body mt-2">
-                <h3 class="card-title">Anime</h3>
-                <p class="card-text">
-                  The "One Piece" anime, adapted from Eiichiro Oda's manga,
-                  stands out as an enduring and beloved series known for its
-                  compelling narrative, diverse characters, and epic adventures.
-                  Spanning numerous episodes, the anime faithfully brings to
-                  life the journey of Monkey D. Luffy and his crew, exploring
-                  the vast and imaginative world of the Grand Line. With a
-                  perfect blend of action, humor, and heartfelt moments, the
-                  anime has garnered a global fanbase, captivating audiences
-                  with its rich storytelling and dynamic animation, making it a
-                  quintessential part of the anime landscape.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col card-padding">
-            <div class="card h-100">
-              <img
-                src="./assets/img/arts/netflix.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body mt-2">
-                <h3 class="card-title">Netflix Adaptation</h3>
-                <p class="card-text">
-                  The live-action series is executive produced by series creator
-                  Eiichiro Oda (also known as Oda-Sensei), created in
-                  partnership with Shueisha, and produced by Tomorrow Studios
-                  and Netflix. Matt Owens and Steven Maeda are writers,
-                  executive producers, and showrunners. Marty Adelstein and
-                  Becky Clements also executive produce.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--footer section ------------------------------------------------------->
-    <footer class="container-fluid mt-5">
+    </div>
+  </section>
+  <!-- media section-->
+  <section class="container-fluid section-margins section-border" id="media">
+    <div class="inside-wrapper">
       <div class="row justify-content-center">
-        <!-- Social----------------------------------->
-        <div class="col-sm-6 text-center mt-3">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a
-                href="https://www.twitter.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Twitter"
-              >
-                <i class="fa-brands fa-twitter"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Facebook"
-              >
-                <i class="fa-brands fa-facebook"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Instagram"
-              >
-                <i class="fa-brands fa-instagram"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.youtube.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Youtube"
-              >
-                <i class="fa-brands fa-youtube"></i>
-                <span class="sr-only">Youtube</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                href="https://www.twitch.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Twitch"
-              >
-                <i class="fa-brands fa-twitch"></i>
-                <span class="sr-only">Twitch</span>
-              </a>
-            </li>
-          </ul>
+        <div class="col">
+          <h2 class="heading uppercase text-center">Media</h2>
+          <hr />
         </div>
       </div>
-      <!-- copyrights-->
-      <div class="row">
-        <div class="col text-center">
-          <p>Copyright Jakub Parafian 2023</p>
+      <!-- media cards-->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-4 mx-1 justify-content-center">
+        <div class="col card-padding">
+          <div class="card h-100">
+            <img src="./assets/img/arts/81IgOp0fOiL._SL1500_.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-2">
+              <h3 class="card-title">Manga</h3>
+              <p>
+                "One Piece" manga, penned by Eiichiro Oda, seamlessly combines
+                adventure, humor, and intricate storytelling as it chronicles
+                the journey of Monkey D. Luffy and his diverse crew in search
+                of the elusive treasure, One Piece, in a captivating world
+                filled with mythical islands, powerful foes, and enduring
+                camaraderie.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col card-padding">
+          <div class="card h-100">
+            <img src="./assets/img/arts/one-piece-odyssey-cover.webp" class="card-img-top" alt="..." />
+            <div class="card-body mt-2">
+              <h3 class="card-title">Games</h3>
+              <p>
+                The "One Piece" video games offer players the opportunity to
+                immerse themselves in the vibrant world of Eiichiro Oda's
+                creation, featuring engaging gameplay, dynamic battles, and
+                the chance to relive key moments from the manga and anime.
+                These games often showcase the Straw Hat Pirates' adventures,
+                allowing fans to experience the thrill of exploring the Grand
+                Line, battling iconic foes, and embracing the spirit of piracy
+                in an interactive gaming experience.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col card-padding">
+          <div class="card h-100">
+            <img src="./assets/img/arts/61KNVDD21YL._AC_UF1000,1000_QL80_.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-2">
+              <h3 class="card-title">Anime</h3>
+              <p class="card-text">
+                The "One Piece" anime, adapted from Eiichiro Oda's manga,
+                stands out as an enduring and beloved series known for its
+                compelling narrative, diverse characters, and epic adventures.
+                Spanning numerous episodes, the anime faithfully brings to
+                life the journey of Monkey D. Luffy and his crew, exploring
+                the vast and imaginative world of the Grand Line. With a
+                perfect blend of action, humor, and heartfelt moments, the
+                anime has garnered a global fanbase, captivating audiences
+                with its rich storytelling and dynamic animation, making it a
+                quintessential part of the anime landscape.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col card-padding">
+          <div class="card h-100">
+            <img src="./assets/img/arts/netflix.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-2">
+              <h3 class="card-title">Netflix Adaptation</h3>
+              <p class="card-text">
+                The live-action series is executive produced by series creator
+                Eiichiro Oda (also known as Oda-Sensei), created in
+                partnership with Shueisha, and produced by Tomorrow Studios
+                and Netflix. Matt Owens and Steven Maeda are writers,
+                executive producers, and showrunners. Marty Adelstein and
+                Becky Clements also executive produce.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </footer>
-    <!--scripts ------------------------------------------------------->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-      crossorigin="anonymous"
-    ></script>
+    </div>
+  </section>
+  <!--footer section ------------------------------------------------------->
+  <footer class="container-fluid mt-5">
+    <div class="row justify-content-center">
+      <!-- Social----------------------------------->
+      <div class="col-sm-6 text-center mt-3">
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Twitter">
+              <i class="fa-brands fa-twitter"></i>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span class="sr-only">Instagram</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Youtube">
+              <i class="fa-brands fa-youtube"></i>
+              <span class="sr-only">Youtube</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.twitch.com" target="_blank" rel="noopener" aria-label="Twitch">
+              <i class="fa-brands fa-twitch"></i>
+              <span class="sr-only">Twitch</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- copyrights-->
+    <div class="row">
+      <div class="col text-center">
+        <p>Copyright Jakub Parafian 2023</p>
+      </div>
+    </div>
+  </footer>
+  <!--scripts ------------------------------------------------------->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-    <script>
-      // Get the modal
-      var modal = document.getElementById("myModal")
+  <script>
+    // Get the modal
+    var modal = document.getElementById("myModal")
 
-      // Get the image and insert it inside the modal - use its "alt" text as a caption
-      var img = document.getElementById("myImg")
-      var modalImg = document.getElementById("img01")
-      var captionText = document.getElementById("caption")
-      img.onclick = function () {
-        modal.style.display = "block"
-        modalImg.src = this.src
-        captionText.innerHTML = this.alt
-      }
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById("myImg")
+    var modalImg = document.getElementById("img01")
+    var captionText = document.getElementById("caption")
+    img.onclick = function () {
+      modal.style.display = "block"
+      modalImg.src = this.src
+      captionText.innerHTML = this.alt
+    }
 
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0]
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0]
 
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function () {
-        modal.style.display = "none"
-      }
-    </script>
-  </body>
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none"
+    }
+  </script>
+</body>
+
 </html>
