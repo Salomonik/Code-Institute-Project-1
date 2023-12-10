@@ -1,4 +1,5 @@
-![Am i responsive](./assets/documentation/amiresponsive.png)
+![Am i responsive](./assets/documentation/amiresponsive.png)<br>
+### The live link can be found here - [One Piece Fan Page](https://salomonik.github.io/Code-Institute-Project-1/index.html)
 # One Piece Fan Page
 
 Welcome to the One Piece Fan Page project! This is a dedicated space to explore and celebrate the captivating world created by Eiichiro Oda in One Piece. Here, you'll find information about the characters, the world, the story, and various media related to this incredible manga and anime.
@@ -128,26 +129,64 @@ Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility a
 
 - CSS
   * No errors were returned when passing through the official W3C Markup Validator by direct input.
-    * [jigsaw.w3.org results] (https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsalomonik.github.io%2FCode-Institute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * [jigsaw.w3.org results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsalomonik.github.io%2FCode-Institute-Project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    ![css-validated](./assets/documentation/Css-validator.png)
 ### Lighthouse Test
 - Website achieved 100% accessibility score in Lighthouse.
     *![lighhouse results](./assets/documentation/lighthouse.png)
 
 ### Form Test
-The form require both Name and Email to be submited.
+- The form require both Name and Email to be submited.
 
 ### Link Test
-    
+- All links tested manually, everything works.   
 
-## Acknowledgements
+### Browser Test
+- Tested on Windows/Android with different browsers, everything works as intended.
+- Tested on Chrome developer tools to check responsiveness with different resolutions.
+- Tested via
+  * [http://www.responsinator.com/](http://www.responsinator.com/?url=https%3A%2F%2Fsalomonik.github.io%2FCode-Institute-Project-1%2Fcontact.html)
+  * [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive?url=https://salomonik.github.io/Code-Institute-Project-1/index.html)
 
-- [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
-- [Awesome README](https://github.com/matiassingers/awesome-readme)
-- [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+## Fixed Bugs
+- During development, a bug occurred when expanding the navbar, the contents briefly showed up during the animation. My solution was to rewrite that part of CSS code.<br><br>
+- ![bug](./assets/documentation/problem1.webp)
 
-## 🚀 About Me
+## Technologies Used
+- HTML5
+- CSS
 
-I'm a full stack developer...
-## Authors
+## Frameworks - Libraries - Programs Used
+- [Bootstrap 5.3.2](https://getbootstrap.com/) - Used to build site layout.
+- [Balsamiq](https://balsamiq.com/) - Used to build wireframe.
+- [Fontawesome](https://fontawesome.com/) - Used social icons for footer.
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used to check site responsiveness.
+- [GitHub](https://github.com/) - Used as a version control and hosting.
+- [W3C](https://www.w3.org/) - Used as a Validators to both HTML & CSS.
+- [Imageresizer](https://imageresizer.com/) - Used to resize/crop pictures.
 
-- [@Salomonik](https://www.github.com/Salomonik)
+## Deployment
+- The project is deployed using GitHub Pages. Follow these steps to deploy it locally:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Salomonik/Code-Institute-Project-1.git
+
+## Credits
+### Media
+Character pictures and logo icon sourced from:
+- [https://www.pngwing.com/](https://www.pngwing.com/)
+
+Banner and Gallery pictures are sourced from:
+- [https://wallpapers.com/one-piece](https://wallpapers.com/one-piece)
+  * credits go to rich.gillespie, young27, belonging, ryan.furtado, yflz0808, tos2941, selekova_460, goober.
+
+Media pictures are sourced from:
+- [https://www.amazon.co.uk/](https://www.amazon.co.uk/)
+
+Map picture is sourced from:
+- [Reddit](https://www.reddit.com/r/OnePiece/comments/em8vjl/oc_one_piece_world_map_more_in_the_comments/)
+  * credits go to OP
+
+## Acknowledgments
+Antonio R. - my mentor for giving me tips how to do it properly. <br><br>
+Slack / Reddit(webdev) community for support.
