@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Source+Sans+3:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Source+Sans+3:wght@300;400;500;700&display=swap');
+
 
 body {
   position: relative;
@@ -59,7 +60,7 @@ h3 {
 }
 
 p {
-  font-family: "Source Sans 3" sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   font-size: 22px;
 }
@@ -122,10 +123,10 @@ header {
   display: inline;
 }
 
-  .navbar-nav .nav-link.active{
+.navbar-nav .nav-link.active{
     color: #fff;
     border-bottom: 2px solid #fff;
-  }
+}
 
 
 /* ------------------------------------------- common classes ------*/
@@ -152,7 +153,7 @@ header {
 .main-article {
   background-color: #fafafa;
   padding: 20px;
-  margin-top: 10px auto;
+  margin-top: 10px;
 }
 
 .main-article p {
@@ -396,7 +397,7 @@ footer {
 }
 
 /* ------------------------------------------- contact ------*/
-.btn-success:hover {
+.btn:hover {
   background-color: rgba(220, 15, 13, 0.8);
   color: white;
 }
