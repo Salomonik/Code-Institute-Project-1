@@ -39,8 +39,12 @@ body {
 
 /* ------------------------------------------- Headings etc ------*/
 
-
-h1,h2 {
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+h2 {
   margin-top: 1rem;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -138,13 +142,9 @@ header {
 /* ------------------------------------------- section 1 ------*/
 
 .photo {
-  display: flex;
-  justify-content: space-around;
   height: 11rem;
   margin: 0 0 1rem 0;
-  flex-wrap: wrap;
 }
-
 .photo img {
   width: auto;
   height: 100%;
@@ -368,13 +368,12 @@ footer {
   border: 1px solid black;
 }
 
+/* media queries for gallery */
 /*default numbers of rows */
 .gallery-rows .column {
   flex: 50%;
   max-width: 50%;
 }
-
-/* media queries */
 
 /*mobile view 1 row */
 @media screen and (max-width: 600px) {
@@ -383,21 +382,6 @@ footer {
     max-width: 100%;
   }
 }
-
-@media screen and (max-width: 768px){
-
-#third-pic {
-  display: none;
-}
-
-}
-@media screen and (max-width: 425px){
-
-  #second-pic {
-    display: none;
-  }
-  
-  }  
 
 
 /* animation for hover */
