@@ -43,7 +43,7 @@ I used vibrant reds, blue hues, and warm yellows to capture the dynamic and adve
 
 | Color                | Hex                                                                      |
 | -------------------- | ------------------------------------------------------------------------ |
-| Background               | ![#4dcaf6](https://via.placeholder.com/10/4dcaf6?text=+) #4dcaf6    |
+| Background           | ![#4dcaf6](https://via.placeholder.com/10/4dcaf6?text=+) #4dcaf6    |
 | Navbar               | ![#dc0f0dcc](https://via.placeholder.com/10/dc0f0dcc?text=+) #dc0f0dcc    |
 | Introduction Section | ![#fddf2866](https://via.placeholder.com/10/fddf28668?text=+) #fddf2866 |
 | Character Section    | ![#0b44c866](https://via.placeholder.com/10/0b44c866?text=+) #0b44c866   |
@@ -51,7 +51,7 @@ I used vibrant reds, blue hues, and warm yellows to capture the dynamic and adve
 | Media Section        | ![#b3480b66](https://via.placeholder.com/10/b3480b66?text=+) #b3480b66   |
 | Gallery Section      | ![#be062066](https://via.placeholder.com/10/be062066?text=+) #be062066   |
 | Contact Section      | ![#dfd50066](https://via.placeholder.com/10/00b48a?text=+) #dfd50066     |
-| Footer Section      | ![#00b9ff](https://via.placeholder.com/10/00b9ff?text=+) #00b9ff     |
+| Footer Section       | ![#00b9ff](https://via.placeholder.com/10/00b9ff?text=+) #00b9ff     |
 
 ### Fonts
 Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility and visual appeal.
@@ -178,14 +178,14 @@ Character pictures and logo icon sourced from:
 
 Banner and Gallery pictures are sourced from:
 - [https://wallpapers.com/one-piece](https://wallpapers.com/one-piece)
-  * credits go to rich.gillespie, young27, belonging, ryan.furtado, yflz0808, tos2941, selekova_460, goober.
+  * credits goes to rich.gillespie, young27, belonging, ryan.furtado, yflz0808, tos2941, selekova_460, goober.
 
 Media pictures are sourced from:
 - [https://www.amazon.co.uk/](https://www.amazon.co.uk/)
 
 Map picture is sourced from:
 - [Reddit](https://www.reddit.com/r/OnePiece/comments/em8vjl/oc_one_piece_world_map_more_in_the_comments/)
-  * credits go to OP
+  * credits goes to OP
 
 ## Acknowledgments
 Antonio R. - my mentor for giving me tips how to do it properly. <br><br>
