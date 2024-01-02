@@ -141,14 +141,23 @@ header {
 /* animation for hover */
 
 /* ------------------------------------------- section 1 ------*/
-
-.photo {
-  height: 11rem;
-  margin: 0 0 1rem 0;
+.main-section {
+  padding-inline: 1rem;
 }
-.photo img {
-  width: auto;
-  height: 100%;
+.photo {
+  
+  margin: 0 0 1rem 0;
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 0.2rem;
+}
+.photo > img {
+  display: block;
+  max-width: 100%;
+  padding: 0;
+  
 }
 
 .main-article {
