@@ -74,6 +74,7 @@ hr {
 .inside-wrapper {
   background-color: #fafafa;
   border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
+  padding-inline: 1rem;
 }
 
 /* ------------------------------------------- Header ------*/
@@ -355,31 +356,25 @@ footer {
 
 /* ------------------------------------------- gallery ------*/
 .gallery-rows {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
+  display: grid;
+  padding-block: 2rem;
+  
 }
 
 .gallery-rows .column img {
-  margin-top: 8px;
-  vertical-align: middle;
   width: 100%;
+  margin-top: 8px;
+  display: block;
   border-radius: 1.75rem;
   border: 1px solid black;
 }
 
-/* media queries for gallery */
-/*default numbers of rows */
-.gallery-rows .column {
-  flex: 50%;
-  max-width: 50%;
-}
+
 
 /*mobile view 1 row */
-@media screen and (max-width: 600px) {
-  .gallery-rows .column {
-    flex: 100%;
-    max-width: 100%;
+@media screen and (min-width: 40em) {
+  .gallery-rows {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
