@@ -39,12 +39,8 @@ body {
 
 /* ------------------------------------------- Headings etc ------*/
 
-h1 {
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
-  font-size: 45px;
-}
-h2 {
+
+h1,h2 {
   margin-top: 1rem;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
