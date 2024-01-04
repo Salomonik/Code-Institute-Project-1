@@ -401,4 +401,10 @@ footer {
   background-color: rgba(220, 15, 13, 0.8);
   color: white;
 }
+
+.wrapper-grid {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-height: 100dvh;
+}
 /* ------------------------------------------- media queries------*/
