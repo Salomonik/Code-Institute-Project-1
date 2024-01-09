@@ -37,6 +37,15 @@ body {
   background-color: rgba(223, 213, 0, 0.4);
 }
 
+#error-page {
+  
+background-color: red;
+
+
+}
+#error-page > * {
+
+}
 /* ------------------------------------------- Headings etc ------*/
 
 
@@ -129,7 +138,7 @@ header {
 /* ------------------------------------------- common classes ------*/
 
 .section-border {
-  max-width: 97vw;
+
   margin-inline: auto;
   padding: 1.25rem;
   border-radius: 3rem;
@@ -405,6 +414,16 @@ footer {
 .wrapper-grid {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  max-height: 100dvh;
+  height: 100dvh;
+  align-items: center;
 }
-/* ------------------------------------------- media queries------*/
+/* ------------------------------------------- 404 page------*/
+#error-page{
+  margin-top: 3rem ;
+}
+#error-page > * {
+ 
+  padding-block: 3rem;
+}
+
+
