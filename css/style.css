@@ -38,18 +38,19 @@ body {
 }
 
 #error-page {
-  
-background-color: red;
+
+  background-color: red;
 
 
 }
-#error-page > * {
 
-}
+#error-page>* {}
+
 /* ------------------------------------------- Headings etc ------*/
 
 
-h1,h2 {
+h1,
+h2 {
   margin-top: 1rem;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -67,7 +68,7 @@ h3 {
 p {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 hr {
@@ -105,6 +106,7 @@ header {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .navbar-collapse {
   flex-grow: 0;
 }
@@ -122,16 +124,17 @@ header {
 .navbar-toggler-icon {
   font-size: xx-large;
 }
+
 /* ------------------------------------------- links ------*/
 .nav-link {
   color: white;
-  
+
   display: inline;
 }
 
-.navbar-nav .nav-link.active{
-    color: #fff;
-    border-bottom: 2px solid #fff;
+.navbar-nav .nav-link.active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
 }
 
 
@@ -143,14 +146,16 @@ header {
   padding: 1.25rem;
   border-radius: 3rem;
 }
+
 /* animation for hover */
 
 /* ------------------------------------------- section 1 ------*/
 .main-section {
   padding-inline: 1rem;
 }
+
 .photo {
-  
+
   margin: 0 0 1rem 0;
   display: grid;
   justify-content: center;
@@ -158,11 +163,12 @@ header {
   grid-auto-columns: 1fr;
   gap: 0.2rem;
 }
-.photo > img {
+
+.photo>img {
   display: block;
   max-width: 100%;
   padding: 0;
-  
+
 }
 
 .main-article {
@@ -190,7 +196,8 @@ header {
   border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
 }
 
-.char-frame figure blockquote, figcaption{
+.char-frame figure blockquote,
+figcaption {
   margin-top: 20px;
   background-color: #fafafa;
   border-radius: 1.75rem;
@@ -223,18 +230,23 @@ figcaption cite {
 #luffy {
   background-color: rgba(215, 0, 0, 1);
 }
+
 #zoro {
   background-color: rgba(55, 89, 73, 1);
 }
+
 #nami {
   background-color: rgba(230, 125, 40, 1);
 }
+
 #usopp {
   background-color: rgba(209, 152, 51, 1);
 }
+
 #robin {
   background-color: rgba(89, 55, 121, 1);
 }
+
 #chopper {
   background-color: rgba(152, 103, 63, 1);
 }
@@ -255,17 +267,26 @@ figcaption cite {
 
 /* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
 }
 
 /* Modal Content (Image) */
@@ -299,6 +320,7 @@ figcaption cite {
   from {
     transform: scale(0);
   }
+
   to {
     transform: scale(1);
   }
@@ -329,24 +351,91 @@ figcaption cite {
   }
 }
 
+
+@media screen and (min-width: 40em) {
+  .world-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .world-list * {
+    flex: 1;
+    flex-basis: 40%;
+    border: solid 1px black;
+  }
+}
+
 /* ------------------------------------------- media section ------*/
-.card {
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-flex {
+
+  display: flex;
   margin-inline: auto;
   background: rgba(240, 194, 17, 0.4);
   padding: 1.25rem;
   border-radius: 3rem;
+  gap: 1rem;
 }
 
-.card > img {
+.card-flex>img {
+  flex: 1;
+  aspect-ratio: 1/1;
+
   border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
 }
-.card-body {
-  border-radius: 0 0 1.75rem 1.75rem;
+
+.card-flex .card-body-flex {
+
+  border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
   background-color: white;
+  padding: .5rem;
+  text-align: center;
 }
 
 .row .card-padding {
   padding: 0.25rem;
+}
+
+
+
+@media screen and (max-width: 40em) {
+  .cards-wrapper {
+    display: block;
+    gap: 1rem;
+    /* Odstęp między kartami */
+  }
+
+  .card-flex {
+
+
+    margin-inline: auto;
+    background: rgba(240, 194, 17, 0.4);
+    padding: ;
+    border-radius: 3rem;
+    display: block;
+    /* Dla uproszczenia, możesz zamienić grid na block, jeśli karty mają być w kolumnie */
+  }
+
+  .card-flex>img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.75rem;
+  }
+
+  iframe {
+    height: auto;
+    width: 90%;
+  }
 }
 
 /* ------------------------------------------- footer ------*/
@@ -372,7 +461,7 @@ footer {
 .gallery-rows {
   display: grid;
   padding-block: 2rem;
-  
+
 }
 
 .gallery-rows .column img {
@@ -417,13 +506,13 @@ footer {
   height: 100dvh;
   align-items: center;
 }
+
 /* ------------------------------------------- 404 page------*/
-#error-page{
-  margin-top: 3rem ;
+#error-page {
+  margin-top: 3rem;
 }
-#error-page > * {
- 
+
+#error-page>* {
+
   padding-block: 3rem;
 }
-
-
