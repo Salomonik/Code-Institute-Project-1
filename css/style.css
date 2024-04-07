@@ -357,13 +357,13 @@ figcaption cite {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    
+
     justify-content: center;
     align-items: baseline;
-    
+
   }
-  
-  .world-list > li {
+
+  .world-list>li {
     flex: 1 1 40%;
     padding-left: 1rem;
     border-left: #4dcaf6 solid 5px;
@@ -372,36 +372,28 @@ figcaption cite {
 }
 
 /* ------------------------------------------- media section ------*/
-.cards-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-}
+
+/* Default styles for smaller screens */
 
 .card-flex {
-
-  display: flex;
+  display: block;
   margin-inline: auto;
   background: rgba(240, 194, 17, 0.4);
   padding: 1.25rem;
   border-radius: 3rem;
-  gap: 1rem;
+  gap: 10px;
+  margin: .5rem;
 }
 
 .card-flex>img {
-  flex: 1;
-  aspect-ratio: 1/1;
-
-  border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
+  border-radius: 1.75rem;
 }
 
 .card-flex .card-body-flex {
-
+  flex: 1;
   border-radius: 1.75rem 1.75rem 1.75rem 1.75rem;
   background-color: white;
-  padding: .5rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
@@ -409,26 +401,31 @@ figcaption cite {
   padding: 0.25rem;
 }
 
+iframe {
+  width: 100%;
+  /* Full width of its container */
+  height: auto;
+  /* Adjust height automatically */
+  aspect-ratio: 16 / 9;
+  /* Maintain a 16:9 aspect ratio for videos */
+}
 
-
-
-  @media screen and (max-width: 40em) {
-    .cards-wrapper {
-     display: block;
-    }
+@media screen and (min-width: 40em) {
   
-    .card-flex {
-      display: block;
-    }
-    
-    .card-body-flex {
-      text-align: center;
-    }
 
-    iframe{
-      max-width: 100%;
-    }
+  .card-flex {
+    display: grid;
+    /* Switch to flex layout for each card */
+    grid-auto-flow: column;
+
+
+
   }
+
+  .card-flex>img {}
+
+  .card-flex .card-body-flex {}
+}
 
 /* ------------------------------------------- footer ------*/
 
