@@ -355,16 +355,19 @@ figcaption cite {
 @media screen and (min-width: 40em) {
   .world-list {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
+    
     justify-content: center;
+    align-items: baseline;
     
   }
   
-  .world-list * {
-    flex: 1;
-    flex-basis: 40%;
-    border: solid 1px black;
+  .world-list > li {
+    flex: 1 1 40%;
+    padding-left: 1rem;
+    border-left: #4dcaf6 solid 5px;
+
   }
 }
 
@@ -408,35 +411,24 @@ figcaption cite {
 
 
 
-@media screen and (max-width: 40em) {
-  .cards-wrapper {
-    display: block;
-    gap: 1rem;
-    /* Odstęp między kartami */
+
+  @media screen and (max-width: 40em) {
+    .cards-wrapper {
+     display: block;
+    }
+  
+    .card-flex {
+      display: block;
+    }
+    
+    .card-body-flex {
+      text-align: center;
+    }
+
+    iframe{
+      max-width: 100%;
+    }
   }
-
-  .card-flex {
-
-
-    margin-inline: auto;
-    background: rgba(240, 194, 17, 0.4);
-    padding: ;
-    border-radius: 3rem;
-    display: block;
-    /* Dla uproszczenia, możesz zamienić grid na block, jeśli karty mają być w kolumnie */
-  }
-
-  .card-flex>img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 1.75rem;
-  }
-
-  iframe {
-    height: auto;
-    width: 90%;
-  }
-}
 
 /* ------------------------------------------- footer ------*/
 
