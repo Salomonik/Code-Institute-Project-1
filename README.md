@@ -14,6 +14,22 @@ The **One Piece Fan Page** project is born out of a passion for the One Piece wo
 * To provide interactive map that allows users to explore the world of One Piece, learn about different seas, islands, and continents.
 * To present One Piece through various media, including manga, anime, games, and upcoming Netflix adaptations.
 
+## Development Life Cycle
+### Project Planning
+- Initial Concept: The project began with an idea to create a comprehensive fan page for "One Piece" enthusiasts. The goal was to offer a hub where fans could find detailed character profiles, explore the series' world, and stay updated on related media.
+- Tools Used: Planning utilized Trello for task management and Google Docs for drafting initial content outlines. Design mockups were created using Balsamiq.
+
+### Research and Design
+- Research: Conducted research on existing fan sites, forums, and official sources to gather content ideas and understand user expectations.
+- Design: Created wireframes for the main page, gallery, and contact section, focusing on user experience and responsive design.
+
+### Development
+- Environment Setup: Configured the development environment, including Git for version control and Visual Studio Code as the IDE.
+- Implementation:
+  * Phase 1: Developed the site structure using HTML5, ensuring semantic markup for accessibility.
+  * Phase 2: Applied CSS for styling, with Bootstrap to aid responsive design.
+  * Phase 3: Focused on content creation, populating the site with character descriptions, images, and media-related information.
+
 ##  User Experience
 ### First-time User Experience:
 - **Introduction:** Immerse yourself in the captivating world of One Piece with a visually engaging homepage.
@@ -93,35 +109,38 @@ Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility a
 </details>
 
 ## Features
-
+- Main site consist introduction to the topic of project, links lead to another sections.
 ### Hero Header
 - **Logo:** One Piece logo as a clickable link to the home page.
-- **Navigation Bar:** Responsive navigation with links to Home, Gallery, and Contact pages.<br><br>
+- **Navigation Bar:** Responsive navigation with links to Home,Characters, Media, Gallery, and Contact pages.<br><br>
 ![Header desktop](./assets/documentation/bannerAndNav.png)
 
 ### Main Article
 - **Content:** Overview of the One Piece series.
 - **Images:** Character visuals and related artwork.<br><br>
 ![Article desktop](./assets/documentation/article-desktop.png)
-### Character Section
-- **Content:** Detailed information about key One Piece characters.
-- **Presentation:** Each character accompanied by images and quotes.<br><br>
-![Character desktop](./assets/documentation/characterCard.png)
 ### Map Section
 - **Content:** Description of the One Piece world and its key locations.
 - **Interactive Element:** Modal for an enlarged world map image.<br><br>
 ![Map Section desktop](./assets/documentation/clearFixMap.png)
-### Media Section
-- **Content:** Overview of One Piece manga, games, anime, and the Netflix adaptation.
-- **Visuals:** Images representing each form of media.<br><br>
-![Media section desktop](./assets/documentation/mediaCards-desktop.png)
 ### Footer Section
 - **Social Links:** Icons linking to Twitter, Facebook, Instagram, YouTube, and Twitch.
 - **Copyright**<br><br>
  ![Footer section desktop](./assets/documentation/footer.png)
 
-## Testing
+### Character Site
+- **Content:** Detailed information about key One Piece characters.
+- **Presentation:** Each character accompanied by images and quotes.<br><br>
+![Character desktop](./assets/documentation/characterCard.png)
 
+### Media Site
+- **Content:** Overview of One Piece manga, games, anime, and the Netflix adaptation.
+- **Visuals:** Images representing each form of media.<br><br>
+![Media section desktop](./assets/documentation/mediaCards-desktop.png)
+
+
+## Testing
+- Conducted both manual and automated tests covering
 ### Validator Testing
 - HTML
   * No errors were returned when passing through the official W3C Markup Validator
@@ -136,28 +155,31 @@ Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility a
     *![lighhouse results](./assets/documentation/lighthouse.png)
 
 ### Form Test
-- The form require both Name and Email to be submited.
+- The form require both Name and Email to be submited. When sumbited, prompt confirms sumbition.
 
 ### Link Test
 - All links tested manually, everything works.   
 
 ### Browser Test
 - Tested on Windows/Android with different browsers, everything works as intended.
+- Tested on Chrome, Firefox, Opera web browsers. I have tested user interactions (eg. all links, forms, gallery image highlights and modal), all work correctly. Responsiveness on all browsers tested and no anomally found.
+- Tested on Android phone, collapsed navbar, responsiveness works corectly.
 - Tested on Chrome developer tools to check responsiveness with different resolutions.
 - Tested via
   * [http://www.responsinator.com/](http://www.responsinator.com/?url=https%3A%2F%2Fsalomonik.github.io%2FCode-Institute-Project-1%2Fcontact.html)
   * [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive?url=https://salomonik.github.io/Code-Institute-Project-1/index.html)
 
 ## Fixed Bugs
-- During development, a bug occurred when expanding the navbar, the contents briefly showed up during the animation. My solution was to rewrite that part of CSS code.<br><br>
+- During development, a bug occurred when expanding the navbar, the contents briefly showed up during the animation. That bug cause a major impact on user experience and functionality. My solution was to rewrite that part of CSS code.<br><br>
 - ![bug](./assets/documentation/problem1.webp)
+- There are no unresolved bugs in my project, everything works as intented so no plans for future resolution. Project is final.
 
 ## Technologies Used
 - HTML5
 - CSS
 
 ## Frameworks - Libraries - Programs Used
-- [Bootstrap 5.3.2](https://getbootstrap.com/) - Used to build site layout.
+- [Bootstrap 5.3.2](https://getbootstrap.com/) - Used to build site layout, Bootstrap 5.3.2 was used to ensure the site's responsive design, enabling a seamless user experience across different devices."
 - [Balsamiq](https://balsamiq.com/) - Used to build wireframe.
 - [Fontawesome](https://fontawesome.com/) - Used social icons for footer.
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - Used to check site responsiveness.
@@ -171,6 +193,17 @@ Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility a
    ```bash
    git clone https://github.com/Salomonik/Code-Institute-Project-1.git
 
+### Pre-Deployment Checklist
+- Code Review: Ensured all code was clean, well-commented, and followed best practices.
+- Final Testing: Conducted a final round of tests across all pages for responsiveness, broken links, and functionality issues.
+
+### Reflections
+- Deploying the One Piece Fan Page through GitHub Pages was a straightforward process that allowed for easy sharing site online.
+
+## Reflections
+- Successes: Achieved a user-friendly, informative fan site that scales well across devices. Gained proficiency in Bootstrap and improved understanding of web accessibility.
+- Challenges: Encountered difficulties with cross-browser styling consistency; resolved through research and testing.
+- Learnings: The importance of thorough planning and user-centric design, adapting to changes and user feedback efficiently.
 ## Credits
 ### Media
 Character pictures and logo icon sourced from:
