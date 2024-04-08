@@ -17,11 +17,16 @@ The **One Piece Fan Page** project is born out of a passion for the One Piece wo
 ## Development Life Cycle
 ### Project Planning
 - Initial Concept: The project began with an idea to create a comprehensive fan page for "One Piece" enthusiasts. The goal was to offer a hub where fans could find detailed character profiles, explore the series' world, and stay updated on related media.
-- Tools Used: Planning utilized Trello for task management and Google Docs for drafting initial content outlines. Design mockups were created using Balsamiq.
+- Tools Used: Planning utilized Google Docs for drafting initial content outlines. Design mockups were created using Balsamiq.
 
 ### Research and Design
 - Research: Conducted research on existing fan sites, forums, and official sources to gather content ideas and understand user expectations.
 - Design: Created wireframes for the main page, gallery, and contact section, focusing on user experience and responsive design.
+
+### Content Requirements
+- High-quality images and artwork from the One Piece series.
+- Accurate and engaging descriptions of characters and story arcs.
+- Updates on One Piece-related media, including manga, anime, and games.
 
 ### Development
 - Environment Setup: Configured the development environment, including Git for version control and Visual Studio Code as the IDE.
@@ -53,7 +58,7 @@ The **One Piece Fan Page** project is born out of a passion for the One Piece wo
      Incorporating visually appealing elements, including high-quality images and a well-designed layout to enhance the overall user experience.
 
 
-### Color Reference
+## Color Reference
 
 I used vibrant reds, blue hues, and warm yellows to capture the dynamic and adventurous atmosphere of the One Piece world, immersing users in a journey through the mysterious Grand Line seas.
 
@@ -169,7 +174,7 @@ Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility a
   * [http://www.responsinator.com/](http://www.responsinator.com/?url=https%3A%2F%2Fsalomonik.github.io%2FCode-Institute-Project-1%2Fcontact.html)
   * [https://ui.dev/amiresponsive](https://ui.dev/amiresponsive?url=https://salomonik.github.io/Code-Institute-Project-1/index.html)
 
-## Fixed Bugs
+## Bug Tracking and Fixes
 - During development, a bug occurred when expanding the navbar, the contents briefly showed up during the animation. That bug cause a major impact on user experience and functionality. My solution was to rewrite that part of CSS code.<br><br>
 - ![bug](./assets/documentation/problem1.webp)
 - There are no unresolved bugs in my project, everything works as intented so no plans for future resolution. Project is final.
@@ -187,23 +192,22 @@ Website combine **Oswald** and **Source Sans 3** fonts to enchance readibility a
 - [W3C](https://www.w3.org/) - Used as a Validators to both HTML & CSS.
 - [Imageresizer](https://imageresizer.com/) - Used to resize/crop pictures.
 
+## Pre-Deployment Checklist
+- Code Review: Ensured all code was clean, well-commented, and followed best practices.
+- Final Testing: Conducted a final round of tests across all pages for responsiveness, broken links, and functionality issues.
+
 ## Deployment
 - The project is deployed using GitHub Pages. Follow these steps to deploy it locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Salomonik/Code-Institute-Project-1.git
 
-### Pre-Deployment Checklist
-- Code Review: Ensured all code was clean, well-commented, and followed best practices.
-- Final Testing: Conducted a final round of tests across all pages for responsiveness, broken links, and functionality issues.
-
-### Reflections
-- Deploying the One Piece Fan Page through GitHub Pages was a straightforward process that allowed for easy sharing site online.
 
 ## Reflections
 - Successes: Achieved a user-friendly, informative fan site that scales well across devices. Gained proficiency in Bootstrap and improved understanding of web accessibility.
 - Challenges: Encountered difficulties with cross-browser styling consistency; resolved through research and testing.
 - Learnings: The importance of thorough planning and user-centric design, adapting to changes and user feedback efficiently.
+
 ## Credits
 ### Media
 Character pictures and logo icon sourced from:
